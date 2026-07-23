@@ -25,6 +25,21 @@ repo unless [OPEN-CORE.md](./OPEN-CORE.md) is updated first.
   bullet under `## [Unreleased]`.
 - All program product work is expected via **Grok Build TUI + Grok 4.5**.
 
+
+## Design system
+
+All product UI follows **DESIGN.md** (Meadow v1).
+
+- `DESIGN.md` — rules and component recipes
+- `styles/design-system/tokens.css` — CSS variables (dark default + light)
+- `tailwind.meadow.ts` — Tailwind color / font / radius mappings
+- `public/brand/` — mark and favicon
+- `design/` — rendered HTML references
+
+Import the design system once through `app/globals.css`. Use Meadow tokens or
+Tailwind classes from `tailwind.meadow.ts`; never hardcode colors. No heat /
+Firecrawl visual styles.
+
 ## Stack (v0 direction)
 
 - TypeScript, Next.js App Router

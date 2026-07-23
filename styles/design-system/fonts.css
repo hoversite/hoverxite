@@ -1,0 +1,4 @@
+/* Meadow fonts are loaded via next/font in app/layout.tsx:
+   --font-bricolage, --font-instrument, --font-plex-mono
+   tokens.css maps --font-display / --font-sans / --font-mono to family names;
+   Tailwind uses the next/font CSS variables with those as fallbacks. */

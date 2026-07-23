@@ -40,6 +40,10 @@ Open [http://localhost:3000](http://localhost:3000).
 Optional keys for upcoming features: copy [`.env.example`](./.env.example) to
 `.env.local`.
 
+## Design system
+
+Meadow v1 — see [DESIGN.md](./DESIGN.md). Tokens in `styles/design-system/`, Tailwind map in `tailwind.meadow.ts`, brand in `public/brand/`.
+
 ## Stack
 
 - TypeScript + Next.js (App Router)

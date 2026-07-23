@@ -1,0 +1,87 @@
+/* ==========================================================================
+   Hoverxite Design System — "Meadow" v1 tokens
+   Drop-in: import once (e.g. in app/globals.css) BEFORE other styles.
+   Dark is the default theme. Add class="light" (or data-theme="light")
+   to <html> for the light theme. See DESIGN.md for usage rules.
+   ========================================================================== */
+
+:root {
+  /* ---- Surfaces ---- */
+  --ink: #0d1310;            /* page background */
+  --surface: #16201a;        /* cards, panels, nav */
+  --surface-raised: #1c2820; /* hover states, popovers, selected rows */
+
+  /* ---- Borders ---- */
+  --border: #24352b;         /* hairlines, dividers */
+  --border-strong: #33473b;  /* inputs, secondary buttons */
+
+  /* ---- Text ---- */
+  --text: #eaf2ec;           /* primary */
+  --text-secondary: #a8b8ad; /* body copy, descriptions */
+  --text-muted: #6e8377;     /* metadata, ids, timestamps */
+
+  /* ---- Accents ---- */
+  --mint: #5ce097;           /* primary actions, success, live, diff + */
+  --mint-hover: #74e8a8;
+  --mint-deep: #17a45c;      /* mint on light surfaces */
+  --honey: #e8c468;          /* pending, deploying, warnings */
+  --clay: #f0776a;           /* errors, destructive */
+
+  /* ---- Tints (badge/button fills = accent at ~10%) ---- */
+  --mint-tint: rgba(92, 224, 151, 0.1);
+  --honey-tint: rgba(232, 196, 104, 0.1);
+  --clay-tint: rgba(240, 119, 106, 0.1);
+  --neutral-tint: rgba(168, 184, 173, 0.08);
+  --selection-bg: rgba(92, 224, 151, 0.28);
+
+  /* ---- On-accent text ---- */
+  --on-mint: #0d1310;        /* text on a mint-filled control */
+
+  /* ---- Type ---- */
+  /* next/font sets --font-bricolage / --font-instrument / --font-plex-mono */
+  --font-display: var(--font-bricolage), "Bricolage Grotesque", sans-serif; /* headings only, >=19px */
+  --font-sans: var(--font-instrument), "Instrument Sans", sans-serif;        /* all UI + body */
+  --font-mono: var(--font-plex-mono), "IBM Plex Mono", ui-monospace, monospace; /* machine-made content */
+
+  /* ---- Radii ---- */
+  --radius-input: 6px;
+  --radius-button: 8px;
+  --radius-card: 12px;
+  --radius-pill: 999px;
+
+  /* ---- Elevation (floating elements only; rest/raised use bg+border) ---- */
+  --shadow-floating: 0 8px 24px rgba(0, 0, 0, 0.4);
+}
+
+.light,
+[data-theme="light"] {
+  --ink: #f4f7f4;            /* "paper" — green-tinted white */
+  --surface: #ffffff;
+  --surface-raised: #ebf0ec;
+
+  --border: #dce5de;
+  --border-strong: #c2d0c6;
+
+  --text: #131c16;
+  --text-secondary: #4e5f55;
+  --text-muted: #75857b;
+
+  --mint: #17a45c;           /* mint deepens for contrast */
+  --mint-hover: #128a4c;
+  --mint-deep: #17a45c;
+  --honey: #b98a16;
+  --clay: #d2493a;
+
+  --mint-tint: rgba(23, 164, 92, 0.08);
+  --honey-tint: rgba(185, 138, 22, 0.08);
+  --clay-tint: rgba(210, 73, 58, 0.08);
+  --neutral-tint: rgba(78, 95, 85, 0.06);
+  --selection-bg: rgba(23, 164, 92, 0.22);
+
+  --on-mint: #ffffff;
+
+  --shadow-floating: 0 8px 24px rgba(19, 28, 22, 0.12);
+}
+
+/* Bright mint (#5ce097) survives on light ONLY as progress fills / dots —
+   use var(--mint) for anything with text on it. */
