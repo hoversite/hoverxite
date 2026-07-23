@@ -59,3 +59,10 @@ Not demo videos. Success looks like:
 
 Built as a real startup: useful product, real users, path to revenue.
 Open-core is the distribution and trust strategy; cloud is the business model.
+
+## Agent quality
+
+After the agent loop exists, measure it with reproducible containerized evals
+(Harbor format), preferably built with the upstream Eval Engineering skill from
+repo context + traces. Links: [docs/eval-engineering.md](./docs/eval-engineering.md).
+

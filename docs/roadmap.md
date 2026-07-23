@@ -13,6 +13,7 @@ Rough order. Dates intentionally loose.
 
 ## Next
 
+- [ ] Agent eval loop (Harbor-format tasks; see [eval-engineering.md](./eval-engineering.md))
 - [ ] Better clone fidelity (layout, assets)
 - [ ] Agent skills library (public markdown)
 - [ ] Self-host docker-compose pack

@@ -74,3 +74,12 @@ boundary — no secrets, no competitor mirrors, no private cloud dumps.
 ## Related
 
 - Private product / cloud: [hoversite/hoversite](https://github.com/hoversite/hoversite) (not this repo)
+
+## Agent quality / evals
+
+We plan to measure the agent with containerized **Harbor** tasks, built with the
+LangChain **Eval Engineering Skill** (repo + traces → interview → eval suite).
+
+- Note + links: [docs/eval-engineering.md](./docs/eval-engineering.md)
+- Announcement: [x.com/vtrivedy10/status/2079976006644072796](https://x.com/vtrivedy10/status/2079976006644072796)
+

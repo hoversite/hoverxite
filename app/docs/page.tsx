@@ -73,6 +73,26 @@ export default function DocsPage() {
           in a browser.
         </p>
       </div>
+
+      <div className="mt-4 rounded-card border border-edge bg-surface p-5">
+        <h2 className="title-h2 mb-2">Agent evals</h2>
+        <p className="body-copy">
+          Future quality loop: Harbor-format tasks from repo + traces. See{" "}
+          <code className="font-mono text-[12px] text-mint">
+            docs/eval-engineering.md
+          </code>{" "}
+          and the{" "}
+          <a
+            href="https://x.com/vtrivedy10/status/2079976006644072796"
+            className="text-mint underline-offset-2 hover:underline"
+            target="_blank"
+            rel="noreferrer"
+          >
+            LangChain Eval Engineering announcement
+          </a>
+          .
+        </p>
+      </div>
     </main>
   );
 }

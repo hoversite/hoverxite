@@ -7,6 +7,8 @@ this repository.
 
 1. [VISION.md](./VISION.md) — what we are building
 2. [OPEN-CORE.md](./OPEN-CORE.md) — what may be open-sourced here
+3. [docs/eval-engineering.md](./docs/eval-engineering.md) — how we will measure the agent (Harbor / LangChain skill)
+
 
 ## Product
 
