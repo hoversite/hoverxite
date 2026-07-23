@@ -13,7 +13,7 @@ Rough order. Dates intentionally loose.
 
 ## Next
 
-- [ ] Agent eval loop (Harbor-format tasks; see [eval-engineering.md](./eval-engineering.md))
+- [ ] Agent eval loop (Harbor-format tasks; see [references/eval-engineering.md](./references/eval-engineering.md))
 - [ ] Better clone fidelity (layout, assets)
 - [ ] Agent skills library (public markdown)
 - [ ] Self-host docker-compose pack
@@ -21,6 +21,7 @@ Rough order. Dates intentionally loose.
 
 ## Later (may open more)
 
+- [ ] Optional Monid (or similar) enrichment tools for agents — [references/monid.md](./references/monid.md)
 - [ ] Simplified single-site publish helpers
 - [ ] Optional self-host control plane template
 - [ ] Multi-user self-host (still not multi-tenant edge)

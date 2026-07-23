@@ -56,7 +56,7 @@ Meadow v1 — see [DESIGN.md](./DESIGN.md). Tokens in `styles/design-system/`, T
 app/            Landing + docs shell
 components/     UI (as it lands)
 lib/            Import, agent, sandbox, export
-docs/           Design notes
+docs/           Design notes + references shelf
 OPEN-CORE.md    Open vs closed boundary
 VISION.md       Product north star
 AGENTS.md       Instructions for coding agents
@@ -75,11 +75,15 @@ boundary — no secrets, no competitor mirrors, no private cloud dumps.
 
 - Private product / cloud: [hoversite/hoversite](https://github.com/hoversite/hoversite) (not this repo)
 
-## Agent quality / evals
+## External references
 
-We plan to measure the agent with containerized **Harbor** tasks, built with the
-LangChain **Eval Engineering Skill** (repo + traces → interview → eval suite).
+Third-party tools and posts we may rely on later live in one shelf (not product
+docs):
 
-- Note + links: [docs/eval-engineering.md](./docs/eval-engineering.md)
-- Announcement: [x.com/vtrivedy10/status/2079976006644072796](https://x.com/vtrivedy10/status/2079976006644072796)
+**[docs/references/](./docs/references/README.md)**
+
+| Note | Links |
+|------|--------|
+| [Eval engineering / Harbor](./docs/references/eval-engineering.md) | [X](https://x.com/vtrivedy10/status/2079976006644072796) |
+| [Monid](./docs/references/monid.md) | [monid.ai](https://monid.ai/) |
 

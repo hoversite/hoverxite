@@ -64,5 +64,5 @@ Open-core is the distribution and trust strategy; cloud is the business model.
 
 After the agent loop exists, measure it with reproducible containerized evals
 (Harbor format), preferably built with the upstream Eval Engineering skill from
-repo context + traces. Links: [docs/eval-engineering.md](./docs/eval-engineering.md).
+repo context + traces. Links: [docs/references/eval-engineering.md](./docs/references/eval-engineering.md).
 

@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+- External references shelf (`docs/references/`) for third-party tools we may rely on later; Monid note + moved Eval Engineering note into the shelf.
 - Reference note for LangChain Eval Engineering Skill / Harbor evals (`docs/eval-engineering.md`) with links to the announcement post and skill source.
 - Initial public open-core repository scaffold (vision, license, landing shell).
 - Meadow v1 design system (tokens, Tailwind map, brand mark, design references) and Meadow-styled landing.

@@ -7,7 +7,7 @@ this repository.
 
 1. [VISION.md](./VISION.md) — what we are building
 2. [OPEN-CORE.md](./OPEN-CORE.md) — what may be open-sourced here
-3. [docs/eval-engineering.md](./docs/eval-engineering.md) — how we will measure the agent (Harbor / LangChain skill)
+3. [docs/references/](./docs/references/README.md) — external tools we may rely on later (Monid, Harbor evals, …)
 
 
 ## Product
@@ -55,7 +55,7 @@ Firecrawl visual styles.
 app/           Next.js routes and UI
 components/    UI components
 lib/           import, agent, sandbox, export (as they land)
-docs/          design and architecture notes
+docs/          design notes + docs/references/ (external shelf)
 .hoverxite/    local runtime data (gitignored)
 ```
 

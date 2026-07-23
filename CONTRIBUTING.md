@@ -28,3 +28,10 @@ npm run dev
 
 By contributing, you agree that your contributions are licensed under the
 Apache License 2.0 (see [LICENSE](./LICENSE)).
+
+## External references
+
+If you discover a third-party tool or post we may depend on later, add a note
+under [docs/references/](./docs/references/README.md) and register it in that
+folder's index — don't leave it only in a PR comment.
+

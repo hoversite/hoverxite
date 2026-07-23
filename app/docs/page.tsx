@@ -57,6 +57,46 @@ export default function DocsPage() {
         </ol>
       </div>
 
+      <div className="mb-4 rounded-card border border-edge bg-surface p-5">
+        <h2 className="title-h2 mb-2">External references</h2>
+        <p className="body-copy mb-3">
+          Third-party tools and posts we may rely on later — not product docs.
+          Index:{" "}
+          <code className="font-mono text-[12px] text-mint">
+            docs/references/README.md
+          </code>
+        </p>
+        <ul className="list-disc space-y-2 pl-5 text-[14px] text-text-secondary">
+          <li>
+            <a
+              href="https://monid.ai/"
+              className="text-mint underline-offset-2 hover:underline"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Monid
+            </a>{" "}
+            — agent gateway to data tools (
+            <code className="font-mono text-[12px]">references/monid.md</code>)
+          </li>
+          <li>
+            <a
+              href="https://x.com/vtrivedy10/status/2079976006644072796"
+              className="text-mint underline-offset-2 hover:underline"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Eval Engineering / Harbor
+            </a>{" "}
+            (
+            <code className="font-mono text-[12px]">
+              references/eval-engineering.md
+            </code>
+            )
+          </li>
+        </ul>
+      </div>
+
       <div className="rounded-card border border-edge bg-surface p-5">
         <h2 className="title-h2 mb-2">Local setup</h2>
         <p className="body-copy">
@@ -71,26 +111,6 @@ export default function DocsPage() {
             design/design-system.html
           </code>{" "}
           in a browser.
-        </p>
-      </div>
-
-      <div className="mt-4 rounded-card border border-edge bg-surface p-5">
-        <h2 className="title-h2 mb-2">Agent evals</h2>
-        <p className="body-copy">
-          Future quality loop: Harbor-format tasks from repo + traces. See{" "}
-          <code className="font-mono text-[12px] text-mint">
-            docs/eval-engineering.md
-          </code>{" "}
-          and the{" "}
-          <a
-            href="https://x.com/vtrivedy10/status/2079976006644072796"
-            className="text-mint underline-offset-2 hover:underline"
-            target="_blank"
-            rel="noreferrer"
-          >
-            LangChain Eval Engineering announcement
-          </a>
-          .
         </p>
       </div>
     </main>
